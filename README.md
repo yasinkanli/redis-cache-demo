@@ -88,7 +88,7 @@ curl -X PUT http://localhost:8080/books/1 -H "Content-Type: application/json" -d
 curl http://localhost:8080/cache/print/1
 
 # Put book manually into cache
-curl -X PUT http://localhost:8080/cache/put/99 -H "Content-Type: application/json" -d "{\"title\": \"Manual Cache Book\", \"author\": \"Admin\"}"
+curl -X PUT http://localhost:8080/cache/put/99 -H "Content-Type: application/json" -d "{\"title\": \"Manual Cache Book\", \"author\": \"Yasin Kanlı\"}"
 
 # Evict from cache
 curl -X DELETE http://localhost:8080/cache/evict/1
